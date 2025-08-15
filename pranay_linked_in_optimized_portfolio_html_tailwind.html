@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pranay Goud – Software Engineer | Data Analyst | Startup Builder</title>
+  <meta name="description" content="Portfolio of Pranay Goud – Software Engineer, Data Analysis, Startup Builder, Thought Leadership. B.Tech CSE (CGPA 8.5). Projects, skills, and contact." />
+  <meta property="og:title" content="Pranay Goud – Portfolio" />
+  <meta property="og:description" content="Software Engineer | Data Analysis | Building Startups | Thought Leadership" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.example" />
+  <meta property="og:image" content="https://your-domain.example/og-image.png" />
+  <link rel="icon" href="favicon.ico" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            linkedin: '#0A66C2',
+            ink: '#0f172a',
+            soft: '#f1f5f9'
+          },
+          boxShadow: {
+            smooth: '0 10px 25px -10px rgba(2, 6, 23, 0.15)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pranay Goud",
+    "url": "https://your-domain.example",
+    "sameAs": [
+      "https://www.linkedin.com/in/your-linkedin",
+      "https://github.com/your-github"
+    ],
+    "jobTitle": "Software Engineer | Data Analyst",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "B.Tech – Computer Science and Engineering"
+    }
+  }
+  </script>
+</head>
+<body class="bg-white text-ink">
+  <!-- Top Nav -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="font-semibold tracking-tight text-linkedin hover:opacity-80">PRANAY GOUD</a>
+        <nav class="hidden md:flex gap-6 text-sm">
+          <a href="#about" class="hover:text-linkedin">About</a>
+          <a href="#skills" class="hover:text-linkedin">Skills</a>
+          <a href="#projects" class="hover:text-linkedin">Projects</a>
+          <a href="#experience" class="hover:text-linkedin">Experience</a>
+          <a href="#education" class="hover:text-linkedin">Education</a>
+          <a href="#contact" class="hover:text-linkedin">Contact</a>
+        </nav>
+        <a href="#contact" class="md:inline-flex hidden px-4 py-2 rounded-2xl bg-linkedin text-white shadow-smooth hover:translate-y-[1px] transition">Let’s Connect</a>
+        <button id="menuBtn" class="md:hidden inline-flex items-center px-3 py-2 rounded-xl border border-slate-300">Menu</button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+      <nav class="max-w-6xl mx-auto px-4 py-3 grid gap-3 text-sm">
+        <a href="#about" class="hover:text-linkedin">About</a>
+        <a href="#skills" class="hover:text-linkedin">Skills</a>
+        <a href="#projects" class="hover:text-linkedin">Projects</a>
+        <a href="#experience" class="hover:text-linkedin">Experience</a>
+        <a href="#education" class="hover:text-linkedin">Education</a>
+        <a href="#contact" class="hover:text-linkedin">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="uppercase tracking-widest text-xs text-slate-500">Portfolio</p>
+        <h1 class="mt-3 text-4xl md:text-5xl font-bold leading-tight">Hi, I’m <span class="text-linkedin">Pranay Goud</span>.<br/>Software Engineer & Data Analyst.</h1>
+        <p class="mt-5 text-slate-700 leading-relaxed">Final-year B.Tech (CSE) with <strong>CGPA 8.5</strong>. I build practical software and data solutions, and I’m passionate about <strong>building startups</strong> and sharing <strong>thought leadership</strong> on tech and careers.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="resume.pdf" class="px-4 py-2 rounded-2xl bg-ink text-white hover:opacity-90 shadow-smooth" download>Download Resume</a>
+          <a href="#projects" class="px-4 py-2 rounded-2xl border border-slate-300 hover:border-linkedin hover:text-linkedin">View Projects</a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-sm">
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="inline-flex items-center gap-2 hover:text-linkedin" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.05c.53-1 1.83-2.1 3.76-2.1 4.02 0 4.77 2.65 4.77 6.1V24h-4v-6.8c0-1.62-.03-3.7-2.25-3.7-2.26 0-2.6 1.76-2.6 3.58V24h-4V8.5z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/your-github" target="_blank" class="inline-flex items-center gap-2 hover:text-linkedin" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.79 23.4c.6.1.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.76.08-.74.08-.74 1.22.09 1.86 1.26 1.86 1.26 1.08 1.85 2.83 1.32 3.52 1.01.11-.79.42-1.32.76-1.63-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.39 1.25-3.24-.13-.31-.54-1.57.12-3.28 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 016 0c2.28-1.55 3.29-1.23 3.29-1.23.67 1.71.26 2.97.13 3.28.78.85 1.25 1.93 1.25 3.24 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.82.58A12 12 0 0012 .5z"/></svg>
+            GitHub
+          </a>
+          <a href="mailto:youremail@example.com" class="hover:text-linkedin">youremail@example.com</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute -inset-4 bg-linkedin/10 rounded-full blur-3xl"></div>
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="Pranay Goud portrait" class="relative w-full max-w-sm mx-auto rounded-2xl shadow-smooth object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 md:py-24 bg-soft">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-10 items-start">
+      <div class="md:col-span-1">
+        <h2 class="text-2xl font-semibold">About Me</h2>
+      </div>
+      <div class="md:col-span-2 text-slate-700 leading-relaxed">
+        <p>I’m a final-year <strong>B.Tech CSE</strong> student with a <strong>CGPA of 8.5</strong>, focused on building clean, production-ready software and practical data solutions. I enjoy turning ambiguity into working systems — from APIs and integrations to dashboards and ML prototypes. Outside class, I write about careers and tech, and I love collaborating on startup ideas.</p>
+        <p class="mt-4">Currently exploring opportunities in <strong>Software Engineering</strong>, <strong>Data Engineering/Analysis</strong>, and <strong>Early-Stage Product</strong> roles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Skills & Expertise</h2>
+      <div class="mt-8 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- Repeatable Skill Chips -->
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">Software Engineering</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">Data Analysis (Pandas, SQL)</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">Python, JavaScript</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">React, Tailwind CSS</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">APIs, REST, JSON</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">MuleSoft / Integration Basics</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">Machine Learning (Scikit-learn)</div>
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white shadow-smooth">Power BI / Visualization</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 md:py-24 bg-soft">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-end justify-between gap-6">
+        <h2 class="text-2xl font-semibold">Projects</h2>
+        <a href="https://github.com/your-github" target="_blank" class="text-sm text-linkedin hover:underline">View all on GitHub →</a>
+      </div>
+      <div class="mt-8 grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+        <!-- Project Card 1 -->
+        <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-smooth hover:-translate-y-0.5 transition">
+          <div class="h-40 rounded-xl bg-gradient-to-br from-linkedin/20 to-slate-100 mb-4"></div>
+          <h3 class="font-semibold">Placement Predictor (ML)</h3>
+          <p class="mt-2 text-sm text-slate-700">Supervised model predicting student placements using academic and extracurricular features. Achieved ~90% accuracy with cross-validation.</p>
+          <div class="mt-3 flex gap-2 text-xs text-slate-600">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Python</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Scikit-learn</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Pandas</span>
+          </div>
+          <a href="#" class="mt-3 inline-block text-sm text-linkedin hover:underline">Repo / Demo</a>
+        </article>
+        <!-- Project Card 2 -->
+        <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-smooth hover:-translate-y-0.5 transition">
+          <div class="h-40 rounded-xl bg-gradient-to-br from-linkedin/20 to-slate-100 mb-4"></div>
+          <h3 class="font-semibold">E‑commerce Sales Dashboard</h3>
+          <p class="mt-2 text-sm text-slate-700">Interactive Power BI dashboard tracking revenue, AOV, and retention; reduced reporting time by 60% for mock dataset.</p>
+          <div class="mt-3 flex gap-2 text-xs text-slate-600">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Power BI</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">DAX</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">SQL</span>
+          </div>
+          <a href="#" class="mt-3 inline-block text-sm text-linkedin hover:underline">Report / Demo</a>
+        </article>
+        <!-- Project Card 3 -->
+        <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-smooth hover:-translate-y-0.5 transition">
+          <div class="h-40 rounded-xl bg-gradient-to-br from-linkedin/20 to-slate-100 mb-4"></div>
+          <h3 class="font-semibold">API Integration Service</h3>
+          <p class="mt-2 text-sm text-slate-700">Built a lightweight service to integrate a sample HR system with a database (inspired by MuleSoft Anypoint flows). Includes HTTP, Transform, and DB layers.</p>
+          <div class="mt-3 flex gap-2 text-xs text-slate-600">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Node.js</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">REST</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">PostgreSQL</span>
+          </div>
+          <a href="#" class="mt-3 inline-block text-sm text-linkedin hover:underline">Repo / Docs</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Experience</h2>
+      <ol class="relative mt-8 border-s border-slate-200">
+        <!-- Timeline Item (Use/duplicate as needed) -->
+        <li class="ms-6 py-6">
+          <span class="absolute -start-2.5 mt-1 h-5 w-5 rounded-full bg-linkedin/10 border border-linkedin"></span>
+          <h3 class="font-semibold">Software Engineering Intern — <span class="text-slate-600">Your Company</span></h3>
+          <p class="text-sm text-slate-600">Jun 2024 – Aug 2024 · Remote/Hyderabad</p>
+          <ul class="mt-2 text-sm text-slate-700 list-disc ms-5 space-y-1">
+            <li>Implemented REST endpoints and improved response time by ~25%.</li>
+            <li>Automated data validation with Python scripts, reducing manual effort.</li>
+            <li>Collaborated with a cross-functional team using Agile practices.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-16 md:py-24 bg-soft">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Education & Certifications</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-smooth">
+          <h3 class="font-semibold">B.Tech – Computer Science & Engineering</h3>
+          <p class="text-sm text-slate-600">Your College Name • 2021 – 2025</p>
+          <p class="mt-2 text-sm">CGPA: <strong>8.5</strong></p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-smooth">
+          <h3 class="font-semibold">Certifications</h3>
+          <ul class="mt-2 text-sm text-slate-700 list-disc ms-5 space-y-1">
+            <li>Google Data Analytics (Coursera) — <em>optional</em></li>
+            <li>Microsoft Power BI — <em>optional</em></li>
+            <li>Introduction to MuleSoft — <em>optional</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-10 items-start">
+      <div class="md:col-span-1">
+        <h2 class="text-2xl font-semibold">Let’s Connect</h2>
+        <p class="mt-2 text-slate-600 text-sm">Open to Software Engineering, Data roles, and startup collaborations.</p>
+      </div>
+      <div class="md:col-span-2">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <a href="mailto:youremail@example.com" class="p-5 rounded-2xl border border-slate-200 bg-white shadow-smooth hover:-translate-y-0.5 transition">
+            <div class="text-sm text-slate-600">Email</div>
+            <div class="font-semibold">youremail@example.com</div>
+          </a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="p-5 rounded-2xl border border-slate-200 bg-white shadow-smooth hover:-translate-y-0.5 transition">
+            <div class="text-sm text-slate-600">LinkedIn</div>
+            <div class="font-semibold">linkedin.com/in/your-linkedin</div>
+          </a>
+          <a href="https://github.com/your-github" target="_blank" class="p-5 rounded-2xl border border-slate-200 bg-white shadow-smooth hover:-translate-y-0.5 transition">
+            <div class="text-sm text-slate-600">GitHub</div>
+            <div class="font-semibold">github.com/your-github</div>
+          </a>
+          <a href="tel:+91XXXXXXXXXX" class="p-5 rounded-2xl border border-slate-200 bg-white shadow-smooth hover:-translate-y-0.5 transition">
+            <div class="text-sm text-slate-600">Phone</div>
+            <div class="font-semibold">+91 XXXXXXXXXX</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t border-slate-200 text-center text-sm text-slate-600">
+    © <span id="year"></span> Pranay Goud • Built with Tailwind • <a href="#home" class="hover:text-linkedin">Back to top</a>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn?.addEventListener('click', () => menu.classList.toggle('hidden'));
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
